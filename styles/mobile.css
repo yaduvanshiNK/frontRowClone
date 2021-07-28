@@ -1,0 +1,77 @@
+#bundle {
+  display: none;
+}
+.mobile-bundle {
+  display: flex;
+}
+
+.promotion-area p {
+  padding-left: 0;
+}
+
+.promotion-info div {
+  padding: 1rem 0rem;
+}
+
+.main-text {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 0;
+}
+.main-text h3 {
+  font-size: 1.5em;
+  font-weight: bold;
+  padding-left: 1rem;
+}
+.main-text p {
+  padding-left: 1rem;
+  font-size: 1rem;
+}
+
+.main-text div img {
+  padding-left: 1rem;
+}
+
+.main-text button {
+  width: 100%;
+}
+
+.main-items video {
+  height: 65%;
+  position: relative;
+  mix-blend-mode: multiply;
+}
+
+.top-gradient {
+  height: 80vh;
+  width: 100%;
+  background: linear-gradient(180deg, rgb(255, 255, 255) 20%, black 60%);
+}
+
+main {
+  height: 88vh;
+}
+
+.cards-section h2 {
+  font-size: 1.5rem;
+}
+
+.cards-section-bottom h2 {
+  font-size: 1.5rem;
+}
+.cards-section p {
+  font-size: 1rem;
+}
+.cards-section-bottom p {
+  font-size: 1rem;
+}
+
+.cards-section-bottom {
+  padding-bottom: 0rem;
+}
+
+.cards-section {
+  margin-top: 1rem;
+  padding-bottom: 0rem;
+}

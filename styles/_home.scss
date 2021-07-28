@@ -1,0 +1,68 @@
+main {
+  background-color: rgb(0, 0, 0);
+  z-index: -1;
+  background-repeat: no-repeat;
+  height: 90vh;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+}
+
+.top-gradient {
+  height: 90vh;
+  background: linear-gradient(
+    270deg,
+    rgb(255, 255, 255) 60%,
+    rgb(0, 0, 0) 100%
+  );
+}
+
+.main-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  right: 0rem;
+  video {
+    height: 90vh;
+    width: auto;
+    z-index: 0;
+    position: relative;
+    mix-blend-mode: multiply;
+  }
+}
+
+.main-text {
+  position: absolute;
+  top: 30%;
+  left: 10rem;
+  color: white;
+  font-size: 1.4rem;
+  h3 {
+    font-size: 4rem;
+  }
+  div {
+    margin-top: 2rem;
+  }
+  button {
+    background: $btnColor;
+    border: none;
+    padding: 10px 30px;
+    font-weight: bold;
+    color: white;
+    font-size: 0.8rem;
+    margin-top: 2rem;
+    &:hover {
+      color: white !important;
+    }
+  }
+}
+
+.main-text p:nth-child(5) {
+  font-weight: bold;
+}
+
+.main-text p:nth-child(2) {
+  padding-top: 1rem;
+  font-weight: bold;
+}

@@ -1,0 +1,44 @@
+.promotion-area {
+  max-width: 1650px;
+  display: flex;
+  margin: auto;
+  padding: 4rem 1rem;
+  justify-content: space-between;
+  h2 {
+    font-weight: 700;
+  }
+  span {
+    display: block;
+    font-size: 1.1rem;
+    font-weight: 400;
+    padding-bottom: 2rem;
+  }
+  p {
+    padding-left: 3rem;
+    font-weight: 400;
+    font-size: 1.2rem;
+    img {
+      margin-right: 0.7rem;
+    }
+  }
+}
+.promotion-info {
+  max-width: 650px;
+  padding-top: 2rem;
+
+  div {
+    padding: 1rem 8rem;
+    img {
+      padding: 5px;
+      cursor: pointer;
+    }
+  }
+}
+.promotion-image-container {
+  position: absolute;
+  right: 0rem;
+  img {
+    max-width: 700px;
+    width: 70vh;
+  }
+}

@@ -1,0 +1,26 @@
+nav {
+  width: 100%;
+  background: black;
+  height: 4rem;
+}
+.nav-items {
+  height: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 85%;
+  margin: auto;
+  img {
+    cursor: pointer;
+  }
+
+  a {
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    padding-left: 2rem;
+    font-family: $mainFont;
+    font-weight: 700;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,68 @@
+.footer-container {
+  background-color: $footerColor;
+  border-top: 2px solid $footerCardsColor;
+}
+.footer-items {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin: auto;
+  padding-top: 3rem;
+}
+.footer-store-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  img {
+    padding-top: 1rem;
+    cursor: pointer;
+  }
+}
+
+.left-social {
+  color: white;
+  h5 {
+    font-size: 1.1rem;
+  }
+}
+
+.social-logos {
+  img {
+    width: 40px;
+    padding-top: 0.5rem;
+    margin-right: 0.5rem;
+    cursor: pointer;
+  }
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin: auto;
+  color: white;
+  padding-top: 1.6rem;
+  div {
+    span {
+      padding-right: 1rem;
+      cursor: pointer;
+    }
+  }
+}
+
+.contact-link p {
+  cursor: pointer;
+}
+
+.copyright-section {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin: auto;
+  color: white;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  font-size: 0.9rem;
+  font-weight: lighter;
+}
